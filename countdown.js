@@ -9,9 +9,9 @@ var myfunc = setInterval(function () {
     var minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
 
-    document.getElementById("days").innerHTML = days + " dias : <br/>"
-    document.getElementById("hours").innerHTML = hours + " horas : <br/>"
-    document.getElementById("mins").innerHTML = minutes + " minutos : <br/>"
+    document.getElementById("days").innerHTML = days + " dias <br/>"
+    document.getElementById("hours").innerHTML = hours + " horas <br/>"
+    document.getElementById("mins").innerHTML = minutes + " minutos <br/>"
     document.getElementById("secs").innerHTML = seconds + " segundos"
 
     if (timeleft < 0) {
