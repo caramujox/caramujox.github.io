@@ -16,7 +16,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     overflow-wrap: break-word;
-    
+
 }
 
 #page-wrap .msg1 {
@@ -43,7 +43,7 @@ html {
 
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1024px) {
     html {
         background: url(images/iPad_Deuses.png) no-repeat center center fixed;
         -webkit-background-size: cover;
@@ -55,23 +55,23 @@ html {
     }
 
     #page-wrap .msg1 {
-        font-size: 70px;
+        font-size: 50px;
         white-space: pre-line
     }
 
     #page-wrap .msg2 {
-        font-size: 80px;
+        font-size: 70px;
         white-space: pre-line;
     }
 
     #page-wrap .msg3 {
-        font-size: 70px;
+        font-size: 50px;
         white-space: pre-line
     }
 
 }
 
-@media only screen and (min-width: 375px) and (max-width: 767px) {
+@media only screen and (min-width: 375px) and (max-width: 768px) {
     html {
         background-image: url("images/Celular_deuses.png");
         background-position: center center;
@@ -89,16 +89,16 @@ html {
     }
 
     #page-wrap .msg1 {
-        font-size: 30px;
+        font-size: 40px;
     }
 
     #page-wrap .msg2 {
-        font-size: 40px;
+        font-size: 50px;
         white-space: pre-line;
     }
 
     #page-wrap .msg3 {
-        font-size: 30px;
+        font-size: 40px;
     }
 }
 
