@@ -9,6 +9,21 @@
     margin: 40px auto;
     padding: 0px;
     background: linear-gradient(#e9c069, #ffdd62, #f7dc7b, #fdf0a3, #f7dc7b, #e9c069);
+   
+
+    /*  */
+
+    background: rgba(197, 150, 47, 1);
+    background: -moz-linear-gradient(left, rgba(197, 150, 47, 1) 0%, rgba(170, 119, 9, 1) 21%, rgba(247, 220, 123, 1) 43%, rgba(253, 239, 163, 1) 59%, rgba(247, 220, 123, 1) 78%, rgba(177, 126, 16, 1) 97%, rgba(177, 126, 16, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(197, 150, 47, 1)), color-stop(21%, rgba(170, 119, 9, 1)), color-stop(43%, rgba(247, 220, 123, 1)), color-stop(59%, rgba(253, 239, 163, 1)), color-stop(78%, rgba(247, 220, 123, 1)), color-stop(97%, rgba(177, 126, 16, 1)), color-stop(100%, rgba(177, 126, 16, 1)));
+    background: -webkit-linear-gradient(left, rgba(197, 150, 47, 1) 0%, rgba(170, 119, 9, 1) 21%, rgba(247, 220, 123, 1) 43%, rgba(253, 239, 163, 1) 59%, rgba(247, 220, 123, 1) 78%, rgba(177, 126, 16, 1) 97%, rgba(177, 126, 16, 1) 100%);
+    background: -o-linear-gradient(left, rgba(197, 150, 47, 1) 0%, rgba(170, 119, 9, 1) 21%, rgba(247, 220, 123, 1) 43%, rgba(253, 239, 163, 1) 59%, rgba(247, 220, 123, 1) 78%, rgba(177, 126, 16, 1) 97%, rgba(177, 126, 16, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(197, 150, 47, 1) 0%, rgba(170, 119, 9, 1) 21%, rgba(247, 220, 123, 1) 43%, rgba(253, 239, 163, 1) 59%, rgba(247, 220, 123, 1) 78%, rgba(177, 126, 16, 1) 97%, rgba(177, 126, 16, 1) 100%);
+    background: linear-gradient(to right, rgba(197, 150, 47, 1) 0%, rgba(170, 119, 9, 1) 21%, rgba(247, 220, 123, 1) 43%, rgba(253, 239, 163, 1) 59%, rgba(247, 220, 123, 1) 78%, rgba(177, 126, 16, 1) 97%, rgba(177, 126, 16, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c5962f', endColorstr='#b17e10', GradientType=1);
+
+    /*  */
+
     font-family: 'OhmyIsis';
     text-align: center;
     border-radius: 16px;
@@ -16,7 +31,6 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     overflow-wrap: break-word;
-
 }
 
 #page-wrap .msg1 {
