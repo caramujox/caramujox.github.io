@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'OhmyIsis';
-    src: url("../fonts/oh_mighty_isis/ohmightyisis.ttf")
-    
+    src: url("fonts/oh_mighty_isis/ohmightyisis.ttf") format('truetype');
+
 }
 
 #page-wrap {
