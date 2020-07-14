@@ -36,7 +36,7 @@ html {
     background-size: cover;
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
     html {
         background: url(images/iPad_Deuses.png) no-repeat center center fixed;
         -webkit-background-size: cover;
@@ -46,6 +46,7 @@ html {
     }   
     #page-wrap .msg1 {
         font-size: 60px;
+        white-space: pre-line
     }
     #page-wrap .msg2 {
         font-size: 80px;
@@ -53,11 +54,12 @@ html {
     }
     #page-wrap .msg3 {
         font-size: 60px;
+        white-space: pre-line
     }
 
 }
 
-@media screen and (min-width: 375px) and (max-width: 768px) {
+@media only screen and (min-width: 375px) and (max-width: 768px) {
     html {
         background-image: url("images/Celular_deuses.png");
         background-position: center center;
@@ -74,18 +76,18 @@ html {
     }
 
     #page-wrap .msg1 {
-        font-size: 30px;
+        font-size: 20px;
     }
     #page-wrap .msg2 {
-        font-size: 50px;
+        font-size: 40px;
         white-space: pre-line;
     }
     #page-wrap .msg3 {
-        font-size: 30px;
+        font-size: 20px;
     }
 }
 
-@media screen and (max-width: 360px) {
+@media only screen and (max-width: 360px) {
     html {
         background-image: url("images/Celular_deuses.png");
         background-position: center center;
@@ -102,18 +104,18 @@ html {
     }
 
     #page-wrap .msg1 {
-        font-size: 30px;
+        font-size: 20px;
     }
     #page-wrap .msg2 {
-        font-size: 50px;
+        font-size: 40px;
         white-space: pre-line;
     }
     #page-wrap .msg3 {
-        font-size: 30px;
+        font-size: 20px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) {
     html {
         background-image: url("images/Celular_deuses.png");
         background-position: center center;
@@ -130,13 +132,13 @@ html {
     }
 
     #page-wrap .msg1 {
-        font-size: 30px;
+        font-size: 20px;
     }
     #page-wrap .msg2 {
-        font-size: 50px;
+        font-size: 40px;
         white-space: pre-line;
     }
     #page-wrap .msg3 {
-        font-size: 30px;
+        font-size: 20px;
     }
 }
