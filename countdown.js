@@ -9,12 +9,12 @@ var myfunc = setInterval(function () {
     var minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
 
-    document.getElementById("msg1").innerHTML = "Aguarde, faltam "
+    document.getElementById("msg1").innerHTML = "Aguarde, faltam <br/><br/>"
     document.getElementById("days").innerHTML = days + " dias <br/>"
     document.getElementById("hours").innerHTML = hours + " horas <br/>"
     document.getElementById("mins").innerHTML = minutes + " minutos <br/>"
-    document.getElementById("secs").innerHTML = seconds + " segundos </br>"
-    document.getElementById("msg3").innerHTML = " para você se emocionar!"
+    document.getElementById("secs").innerHTML = seconds + " segundos <br/>"
+    document.getElementById("msg3").innerHTML = "<br/> para você se emocionar!"
 
     if (timeleft < 0) {
         window.location.replace("https://www.youtube.com/watch?v=om3n2ni8luE&list=RDom3n2ni8luE&start_radio=1")
