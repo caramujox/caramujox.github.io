@@ -102,7 +102,7 @@ html {
     }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 375px) {
     html {
         background-image: url("images/Celular_deuses.png");
         background-position: center center;
