@@ -1,4 +1,6 @@
 body {
-    background-image: url("https://i.pinimg.com/originals/b8/1e/18/b81e18a8277fa5ee43d765a3bb041c1a.jpg");
-    background-color: #cccccc;
+    background-image: url("images/drago.jpg");
+    background-position: center center; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat; background-size: cover; 
    }
