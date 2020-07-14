@@ -1,6 +1,141 @@
-body {
-    background-image: url("images/drago.jpg");
-    background-position: center center; 
-    background-attachment: fixed; 
-    background-repeat: no-repeat; background-size: cover; 
-   }
+@font-face {
+    font-family: 'OhmyIsis';
+    src: url("/fonts/oh_mighty_isis/ohmightyisis.ttf")
+}
+
+#page-wrap {
+    width: flex;
+    margin: 40px auto;
+    padding: 0px;
+    background:linear-gradient(#c5962f, #aa7809, #f7dc7b, #fdf0a3, #f7dc7b, #b17e10);
+    font-family: 'OhmyIsis';
+    text-align: center;
+    border-radius: 16px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    overflow-wrap: break-word;
+}
+
+#page-wrap .msg1 {
+    font-size: 40px;
+}
+#page-wrap .msg2 {
+    font-size: 60px;
+    white-space: pre-line;
+}
+#page-wrap .msg3 {
+    font-size: 40px;
+}
+
+html {
+    background: url(images/iPad_Deuses.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media screen and (max-width: 1024px) {
+    html {
+        background: url(images/iPad_Deuses.png) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }   
+    #page-wrap .msg1 {
+        font-size: 60px;
+    }
+    #page-wrap .msg2 {
+        font-size: 80px;
+        white-space: pre-line;
+    }
+    #page-wrap .msg3 {
+        font-size: 60px;
+    }
+
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    html {
+        background-image: url("images/Celular_deuses.png");
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    #page-wrap{
+        margin: 50px auto;
+        padding: 0;
+        background-color: #831d1c;
+    }
+
+    #page-wrap .msg1 {
+        font-size: 30px;
+    }
+    #page-wrap .msg2 {
+        font-size: 50px;
+        white-space: pre-line;
+    }
+    #page-wrap .msg3 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    html {
+        background-image: url("images/Celular_deuses.png");
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    #page-wrap{
+        margin: 50px auto;
+        padding: 0;
+        background-color: #831d1c;
+    }
+
+    #page-wrap .msg1 {
+        font-size: 30px;
+    }
+    #page-wrap .msg2 {
+        font-size: 50px;
+        white-space: pre-line;
+    }
+    #page-wrap .msg3 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    html {
+        background-image: url("images/Celular_deuses.png");
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    #page-wrap{
+        margin: 50px auto;
+        padding: 0;
+        background-color: #831d1c;
+    }
+
+    #page-wrap .msg1 {
+        font-size: 30px;
+    }
+    #page-wrap .msg2 {
+        font-size: 50px;
+        white-space: pre-line;
+    }
+    #page-wrap .msg3 {
+        font-size: 30px;
+    }
+}
