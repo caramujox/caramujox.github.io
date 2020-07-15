@@ -66,6 +66,49 @@ html {
 
 }
 
+@media only screen and (min-width: 1025px) {
+    html {
+        background: url(images/iPad_Deuses.png) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    #page-wrap .msg1 {
+        font-size: 50px;
+        white-space: pre-line
+    }
+
+    #page-wrap .msg2 {
+        font-size: 70px;
+        white-space: pre-line;
+    }
+
+    #page-wrap .msg3 {
+        font-size: 50px;
+        white-space: pre-line
+    }
+
+    .video {
+        position: relative;
+        padding-bottom: 54%; /* 16:9 */
+        height: 0;
+      }
+
+      .responsive-iframe {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 70vw;
+        height: 50vh;
+    }
+
+
+}
+
 @media only screen and (max-width: 1024px) {
     html {
         background: url(images/iPad_Deuses.png) no-repeat center center fixed;
@@ -91,6 +134,12 @@ html {
         font-size: 50px;
         white-space: pre-line
     }
+
+    .video {
+        position: relative;
+        padding-bottom: 54%; /* 16:9 */
+        height: 0;
+      }
 
 
 }
@@ -126,7 +175,7 @@ html {
     }
     .video {
         position: relative;
-        padding-bottom: 80%; /* 16:9 */
+        padding-bottom: 65%; /* 16:9 */
         height: 0;
       }
 }
