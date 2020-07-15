@@ -85,7 +85,7 @@ html {
 
 }
 
-@media only screen and (min-width: 375px) and (max-width: 768px) {
+@media only screen and (min-width: 415px) and (max-width: 768px) {
     html {
         background-image: url("images/Celular_deuses.png");
         background-position: center center;
@@ -116,7 +116,7 @@ html {
     }
 }
 
-@media only screen and (min-width: 321px) and (max-width: 374px) {
+@media only screen and (min-width: 321px) and (max-width: 414px) {
     html {
         background-image: url("images/Celular_deuses.png");
         background-position: center center;
