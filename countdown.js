@@ -1,4 +1,4 @@
-var countDownDate = new Date("Jul 18, 2020 00:00:00").getTime();
+var countDownDate = new Date("Jul 14, 2020 00:00:00").getTime();
 
 var myfunc = setInterval(function () {
     var now = new Date().getTime();
@@ -15,9 +15,18 @@ var myfunc = setInterval(function () {
     document.getElementById("mins").innerHTML = minutes + " minutos <br/>"
     document.getElementById("secs").innerHTML = seconds + " segundos <br/>"
     document.getElementById("msg3").innerHTML = "<br/> para você se emocionar!"
+    document.getElementById("video").style.visibility = 'hidden'
 
     if (timeleft < 0) {
-        window.location.replace("https://www.youtube.com/watch?v=om3n2ni8luE&list=RDom3n2ni8luE&start_radio=1")
+        clearInterval(myfunc);        
+        document.getElementById("days").innerHTML = ""
+        document.getElementById("hours").innerHTML = "" 
+        document.getElementById("mins").innerHTML = ""
+        document.getElementById("secs").innerHTML = ""
+        document.getElementById("msg1").innerHTML = " A espera acabou!<br /> Se liga na novidade: <br/>"
+        document.getElementById("msg3").innerHTML = ""
+        document.getElementById("video").style.visibility = 'visible'
+       
 
     }
 }, 1000)
