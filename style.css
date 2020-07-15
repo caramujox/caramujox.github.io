@@ -92,6 +92,7 @@ html {
         white-space: pre-line
     }
 
+
 }
 
 @media only screen and (min-width: 415px) and (max-width: 768px) {
@@ -123,6 +124,11 @@ html {
     #page-wrap .msg3 {
         font-size: 40px;
     }
+    .video {
+        position: relative;
+        padding-bottom: 80%; /* 16:9 */
+        height: 0;
+      }
 }
 
 @media only screen and (min-width: 321px) and (max-width: 414px) {
