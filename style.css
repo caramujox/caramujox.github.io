@@ -154,6 +154,11 @@ html {
     #page-wrap .msg3 {
         font-size: 35px;
     }
+    .video {
+        position: relative;
+        padding-bottom: 80%; /* 16:9 */
+        height: 0;
+      }
 }
 
 @media only screen and (max-width: 320px) {
