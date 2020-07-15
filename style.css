@@ -116,7 +116,7 @@ html {
     }
 }
 
-@media only screen and (min-width: 321px) and (max-width: 375px) {
+@media only screen and (min-width: 321px) and (max-width: 374px) {
     html {
         background-image: url("images/Celular_deuses.png");
         background-position: center center;
