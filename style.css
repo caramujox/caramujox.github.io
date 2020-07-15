@@ -211,7 +211,7 @@ html {
     }
     .video {
         position: relative;
-        padding-bottom: 80%; /* 16:9 */
+        padding-bottom: 65%; /* 16:9 */
         height: 0;
       }
 }
@@ -248,7 +248,7 @@ html {
 
     .video {
         position: relative;
-        padding-bottom: 85%; /* 16:9 */
+        padding-bottom: 68%; /* 16:9 */
         height: 0;
       }
 }
