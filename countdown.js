@@ -15,7 +15,8 @@ var myfunc = setInterval(function () {
     document.getElementById("mins").innerHTML = minutes + " minutos <br/>"
     document.getElementById("secs").innerHTML = seconds + " segundos <br/>"
     document.getElementById("msg3").innerHTML = "<br/> para você se emocionar!"
-    document.getElementById("video").style.visibility = 'hidden'
+    document.getElementById("video").style.display = 'none'
+    document.getElementById("iframe").style.display = 'none'
 
     if (timeleft < 0) {
         clearInterval(myfunc);        
@@ -25,7 +26,8 @@ var myfunc = setInterval(function () {
         document.getElementById("secs").innerHTML = ""
         document.getElementById("msg1").innerHTML = " A espera acabou!<br /> Se liga na novidade: <br/>"
         document.getElementById("msg3").innerHTML = ""
-        document.getElementById("video").style.visibility = 'visible'
+        document.getElementById("video").style.display = 'block'
+        document.getElementById("iframe").style.display = 'block'
        
 
     }
