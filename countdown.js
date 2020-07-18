@@ -17,6 +17,9 @@ var myfunc = setInterval(function () {
     document.getElementById("msg3").innerHTML = "<br/> para você se emocionar!"
     document.getElementById("video").style.display = 'none'
     document.getElementById("iframe").style.display = 'none'
+    document.getElementById("arvore1").style.display = 'none'
+    document.getElementById("arvore2").style.display = 'none'
+    document.getElementById("arvore3").style.display = 'none'
 
     if (timeleft < 0) {
         clearInterval(myfunc);        
@@ -28,6 +31,9 @@ var myfunc = setInterval(function () {
         document.getElementById("msg3").innerHTML = ""
         document.getElementById("video").style.display = 'block'
         document.getElementById("iframe").style.display = 'block'
+        document.getElementById("arvore1").style.display = 'block'
+        document.getElementById("arvore2").style.display = 'block'
+        document.getElementById("arvore3").style.display = 'block'
        
 
     }

@@ -252,3 +252,25 @@ html {
         height: 0;
       }
 }
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#arvore1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+}
+#arvore2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+}
+#arvore3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+}
